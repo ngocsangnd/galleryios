@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="true"
+        jar="F:\Zer\app_1_galary\SimpleGalary-master\SimpleGalary-master\app\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="0341b253ae66e4291b8f6d34fa14b4aea3fabb5a">
+        <dex dex="F:\Zer\app_1_galary\SimpleGalary-master\SimpleGalary-master\app\build\intermediates\transforms\dex\debug\folders\1000\10000\instant-run-bootstrap_92a510435c08ebc89449629028232596ae725a72\classes.dex" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="F:\Zer\app_1_galary\SimpleGalary-master\SimpleGalary-master\app\libs\zen.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="44442cbf1405c8dc748373a27d7e9d653c55c156">
+        <dex dex="F:\Zer\app_1_galary\SimpleGalary-master\SimpleGalary-master\app\build\intermediates\pre-dexed\debug\zen_547d302670e70228027738eef5b3a9d6d5eefa6e.jar" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="F:\Zer\app_1_galary\SimpleGalary-master\SimpleGalary-master\app\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="12920f9016b8b05acbc2af7cdc13cef6946fe7d3">
+        <dex dex="F:\Zer\app_1_galary\SimpleGalary-master\SimpleGalary-master\app\build\intermediates\transforms\dex\debug\folders\1000\10000\instant-run_ca26a5912ff19a077ee75ba2462a7f7551ef473f\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="F:\Zer\app_1_galary\SimpleGalary-master\SimpleGalary-master\app\libs\zen.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="44442cbf1405c8dc748373a27d7e9d653c55c156">
+        <dex dex="F:\Zer\app_1_galary\SimpleGalary-master\SimpleGalary-master\app\build\intermediates\transforms\dex\debug\folders\1000\2\zen_547d302670e70228027738eef5b3a9d6d5eefa6e\classes.dex" />
+    </item>
+
+</items>

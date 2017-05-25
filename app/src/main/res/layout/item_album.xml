@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:id="@+id/ll_category"
+        android:layout_width="match_parent"
+        android:orientation="horizontal"
+        android:layout_height="wrap_content">
+        <ImageView
+            android:id="@+id/imv_first_image"
+            android:layout_width="50dp"
+            android:layout_height="50dp" />
+        <RelativeLayout
+            android:orientation="horizontal"
+            android:gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <TextView
+                android:id="@+id/tv_bucket"
+                android:paddingLeft="5dp"
+                android:gravity="center_vertical"
+                android:fontFamily="Arial"
+                android:layout_width="match_parent"
+                android:textColor="@color/black"
+                android:textSize="15dp"
+                android:layout_height="match_parent" />
+
+            <ImageView
+                android:id="@+id/imv_next"
+                android:layout_width="30dp"
+                android:src="@drawable/next"
+                android:layout_marginRight="10dp"
+                android:layout_alignParentRight="true"
+                android:padding="8dp"
+                android:layout_height="50dp" />
+            <TextView
+                android:gravity="center_vertical"
+                android:id="@+id/tv_size_album"
+                android:textSize="15dp"
+                android:layout_toLeftOf="@+id/imv_next"
+                android:layout_width="20dp"
+                android:layout_marginRight="5dp"
+                android:layout_height="match_parent" />
+        </RelativeLayout>
+    </LinearLayout>
+</LinearLayout>

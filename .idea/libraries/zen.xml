@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="zen">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/app/libs/zen.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

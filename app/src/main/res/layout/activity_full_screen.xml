@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:gravity="center"
+    android:id="@+id/root_view"
+    android:layout_height="match_parent">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <com.zer.gallery.customview.SelectiveViewPager
+            android:id="@+id/image_pager"
+            android:onClick="z"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"></com.zer.gallery.customview.SelectiveViewPager>
+        <ImageView
+            android:layout_width="match_parent"
+            android:scaleType="centerInside"
+            android:layout_alignParentBottom="true"
+            android:id="@+id/imv_edt_imv"
+            android:layout_height="200dp" />
+        <LinearLayout
+            android:id="@+id/ll_menu_show_fake"
+            android:layout_centerInParent="true"
+            android:orientation="horizontal"
+            android:gravity="center"
+            android:layout_width="match_parent"
+            android:layout_marginBottom="30dp"
+            android:layout_alignParentBottom="true"
+            android:layout_height="35dp">
+            <ImageView
+                android:layout_width="50dp"
+                android:scaleType="centerInside"
+                android:src="@drawable/info"
+                android:layout_height="wrap_content" />
+            <ImageView
+                android:scaleType="centerInside"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="@dimen/medium"
+                android:layout_width="50dp"
+                android:src="@drawable/fix"
+                android:layout_height="wrap_content" />
+            <ImageView
+                android:scaleType="centerInside"
+                android:layout_width="50dp"
+                android:src="@drawable/share"
+                android:layout_height="wrap_content" />
+            <ImageView
+                android:scaleType="centerInside"
+                android:layout_width="50dp"
+                android:src="@drawable/delete"
+                android:layout_height="wrap_content" />
+            <ImageView
+                android:scaleType="centerInside"
+                android:visibility="gone"
+                android:layout_width="50dp"
+                android:src="@drawable/delete"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+        <LinearLayout
+            android:id="@+id/ll_menu_show_image"
+            android:layout_centerInParent="true"
+            android:orientation="horizontal"
+            android:gravity="center"
+            android:layout_width="match_parent"
+            android:layout_marginBottom="30dp"
+            android:layout_alignParentBottom="true"
+            android:layout_height="35dp">
+            <ImageView
+                android:scaleType="centerInside"
+                android:id="@+id/imv_info"
+                android:layout_width="50dp"
+                android:src="@drawable/info"
+                android:layout_height="wrap_content" />
+            <ImageView
+                android:scaleType="centerInside"
+                android:id="@+id/imv_setting"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="@dimen/medium"
+                android:layout_width="50dp"
+                android:src="@drawable/fix"
+                android:layout_height="wrap_content" />
+            <ImageView
+                android:scaleType="centerInside"
+                android:id="@+id/imv_sharing"
+                android:layout_width="50dp"
+                android:src="@drawable/share"
+                android:layout_height="wrap_content" />
+            <ImageView
+                android:scaleType="centerInside"
+                android:id="@+id/imv_delete"
+                android:layout_width="50dp"
+                android:src="@drawable/delete"
+                android:layout_height="wrap_content" />
+            <ImageView
+                android:scaleType="centerInside"
+                android:visibility="gone"
+                android:id="@+id/imv_edit_image"
+                android:layout_width="50dp"
+                android:src="@drawable/delete"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+
+    </RelativeLayout>
+</LinearLayout>
